@@ -100,7 +100,7 @@ Lemma MyCollatz_1000 : Forall MyCollatz (ps_list 1000).
   Time cbv in *.
   exact X.
   Show Proof.
-Time Qed. (* take about 30 sec*)
+Time Qed. (* takes about 30 secs *)
 
 Theorem Collatz_1000: forall x : Z, 1 <= x <= 1000 -> Collatz x.
 Proof.
